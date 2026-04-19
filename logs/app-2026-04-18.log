@@ -1,0 +1,21 @@
+{"level":"info","message":"server running on port: 8000","timestamp":"2026-04-18T04:51:42.364Z"}
+{"level":"info","message":"Mongoose connection done","timestamp":"2026-04-18T04:51:42.406Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"404\",\"responseTime\":\"4.580\"}","timestamp":"2026-04-18T04:52:30.012Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/v1/health\",\"status\":\"404\",\"responseTime\":\"2.361\"}","timestamp":"2026-04-18T04:52:44.793Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/api/v1/health\",\"status\":\"404\",\"responseTime\":\"0.430\"}","timestamp":"2026-04-18T04:52:49.036Z"}
+{"level":"info","message":"server running on port: 8000","timestamp":"2026-04-18T04:55:52.059Z"}
+{"level":"info","message":"Mongoose connection done","timestamp":"2026-04-18T04:55:52.098Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/health\",\"status\":\"200\",\"responseTime\":\"3.663\"}","timestamp":"2026-04-18T04:58:36.650Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/favicon.ico\",\"status\":\"404\",\"responseTime\":\"1.581\"}","timestamp":"2026-04-18T04:58:36.687Z"}
+{"level":"info","message":"server running on port: 8000","timestamp":"2026-04-18T05:04:50.148Z"}
+{"level":"info","message":"Mongoose default connection disconnected","timestamp":"2026-04-18T05:05:17.201Z"}
+{"level":"info","message":"Mongoose connection error","timestamp":"2026-04-18T05:05:17.202Z"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"mongo:27017":{"$clusterTime":null,"address":"mongo:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":1821090,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"level":"error","message":"getaddrinfo ENOTFOUND mongo","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"mongo:27017":{"$clusterTime":null,"address":"mongo:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":1821090,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"timestamp":"2026-04-18T05:05:17.202Z"}
+{"level":"error","message":"Mongoose default connection error: MongoServerSelectionError: getaddrinfo ENOTFOUND mongo","timestamp":"2026-04-18T05:05:17.204Z"}
+{"level":"info","message":"server running on port: 8000","timestamp":"2026-04-18T05:29:11.913Z"}
+{"level":"info","message":"Mongoose connection done","timestamp":"2026-04-18T05:29:11.943Z"}
+{"level":"info","message":"server running on port: 8000","timestamp":"2026-04-18T10:26:56.675Z"}
+{"level":"info","message":"Mongoose connection done","timestamp":"2026-04-18T10:26:58.978Z"}
+{"level":"info","message":"{\"method\":\"GET\",\"url\":\"/health\",\"status\":\"200\",\"responseTime\":\"6.700\"}","timestamp":"2026-04-18T10:27:06.413Z"}
+{"level":"info","message":"Mongoose default connection disconnected","timestamp":"2026-04-18T10:37:24.860Z"}
+{"level":"info","message":"Mongoose default connection disconnected","timestamp":"2026-04-18T10:37:43.437Z"}

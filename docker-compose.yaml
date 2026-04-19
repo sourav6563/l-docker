@@ -1,0 +1,34 @@
+version: "3.8"
+services:
+  dancely:
+    image: dancely-backend:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dancely_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    networks:
+      - dancely-net
+    depends_on:
+      - mongo
+
+    env_file:
+      - .env
+
+  mongo:
+    image: mongo:latest
+    container_name: dancely_mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - dancely-net
+volumes:
+  mongo-data:
+networks:
+  dancely-net:
