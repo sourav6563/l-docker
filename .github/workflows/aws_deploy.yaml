@@ -4,7 +4,10 @@ on:
   # Trigger deploy whenever code is pushed to main.
   push:
     branches:
+      - master
       - main
+  # Allow manual trigger from the Actions tab.
+  workflow_dispatch:
 
 jobs:
   deploy:
